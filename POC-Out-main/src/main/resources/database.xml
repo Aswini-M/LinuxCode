@@ -34,7 +34,7 @@
 <bean id="hikariConfig"
         class="com.zaxxer.hikari.HikariConfig">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3307/indianbank?useSSL=false"/>
+        <property name="jdbcUrl" value="jdbc:mysql://mysql:3307/indianbank?useSSL=false"/>
         <property name="username">
             <value>root</value>
         </property>
